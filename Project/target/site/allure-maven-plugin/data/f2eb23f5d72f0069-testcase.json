@@ -1,0 +1,53 @@
+{
+  "uid" : "f2eb23f5d72f0069",
+  "name" : "And I click on Create your Amazon account button on amazon register page",
+  "title" : "And I click on Create your Amazon account button on amazon register page",
+  "time" : {
+    "start" : 1550959765556,
+    "stop" : 1550959765556,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "73b9cbedd144fb9a",
+    "name" : "Verify I can't create an account if password is less than 6 characters",
+    "title" : "Verify I can't create an account if password is less than 6 characters"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if password is less than 6 characters"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if password is less than 6 characters"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if password is less than 6 characters"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  } ],
+  "parameters" : [ ]
+}

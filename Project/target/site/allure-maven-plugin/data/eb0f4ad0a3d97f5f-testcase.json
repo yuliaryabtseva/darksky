@@ -1,0 +1,53 @@
+{
+  "uid" : "eb0f4ad0a3d97f5f",
+  "name" : "Given I am on Amazon home page",
+  "title" : "Given I am on Amazon home page",
+  "time" : {
+    "start" : 1550959741147,
+    "stop" : 1550959741147,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5aa17296db8e74e8",
+    "name" : "Verify I can't create an account if entered email is not an email",
+    "title" : "Verify I can't create an account if entered email is not an email"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if entered email is not an email"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if entered email is not an email"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if entered email is not an email"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  } ],
+  "parameters" : [ ]
+}

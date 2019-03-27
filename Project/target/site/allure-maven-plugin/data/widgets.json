@@ -1,0 +1,100 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 38,
+      "passed" : 38,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "time" : {
+      "start" : 1550959720154,
+      "stop" : 1550959765619,
+      "duration" : 45465
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 0,
+      "message" : "There are no defects!",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Verify I can't create an account if passwords don't match",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Verify I can't create an account if entered email is not an email",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Verify I can't create an account if password is less than 6 characters",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Verify I can't create an account if email is not entered",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Verify I can't create an account if name is not entered",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Amazon Feature",
+      "statistic" : {
+        "total" : 38,
+        "passed" : 38,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

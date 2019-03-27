@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1550959752796" stop="1550959755682" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify I can't create an account if passwords don't match</name>
+    <title>Verify I can't create an account if passwords don't match</title>
+    <test-cases>
+        <test-case start="1550959752799" stop="1550959752799" status="passed">
+            <name>Given I am on Amazon home page</name>
+            <title>Given I am on Amazon home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959754158" stop="1550959754158" status="passed">
+            <name>Given I am on Create Account page</name>
+            <title>Given I am on Create Account page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959754351" stop="1550959754351" status="passed">
+            <name>When I enter  Yulia into name field on amazon register page</name>
+            <title>When I enter  Yulia into name field on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959754689" stop="1550959754689" status="passed">
+            <name>And I enter test@technosoft.io into email field on amazon register page</name>
+            <title>And I enter test@technosoft.io into email field on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959754868" stop="1550959754868" status="passed">
+            <name>And I enter  test1234 into password field on amazon register page</name>
+            <title>And I enter  test1234 into password field on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959754984" stop="1550959754984" status="passed">
+            <name>And I enter test into re-enter password field on amazon register page</name>
+            <title>And I enter test into re-enter password field on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959755372" stop="1550959755372" status="passed">
+            <name>And I click on Create your Amazon account button on amazon register page</name>
+            <title>And I click on Create your Amazon account button on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959755441" stop="1550959755441" status="passed">
+            <name>Then I verify "Passwords must match" error on amazon register page</name>
+            <title>Then I verify "Passwords must match" error on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify I can't create an account if passwords don't match"/>
+        <label name="feature" value="Amazon Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

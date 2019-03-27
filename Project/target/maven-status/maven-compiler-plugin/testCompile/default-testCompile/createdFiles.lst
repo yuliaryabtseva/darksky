@@ -1,0 +1,15 @@
+framework/BasePage$1.class
+stepdefinition/SharedSD.class
+util/ConfigReader.class
+framework/MessengerPage.class
+framework/LoginPage.class
+framework/AmazonRegisterPage.class
+stepdefinition/AmazonRegistrationSD.class
+framework/TestRunner.class
+stepdefinition/MessengerSignUpSD.class
+framework/AmazonHomepage.class
+framework/MessengerLoginPage.class
+stepdefinition/SignupSD.class
+framework/HomePage.class
+stepdefinition/LoginSD.class
+framework/BasePage.class

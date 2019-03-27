@@ -1,0 +1,53 @@
+{
+  "uid" : "62f80df0c0a96fca",
+  "name" : "And I enter test@technosoft.io into email field on amazon register page",
+  "title" : "And I enter test@technosoft.io into email field on amazon register page",
+  "time" : {
+    "start" : 1550959764502,
+    "stop" : 1550959764502,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "73b9cbedd144fb9a",
+    "name" : "Verify I can't create an account if password is less than 6 characters",
+    "title" : "Verify I can't create an account if password is less than 6 characters"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if password is less than 6 characters"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if password is less than 6 characters"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if password is less than 6 characters"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  } ],
+  "parameters" : [ ]
+}

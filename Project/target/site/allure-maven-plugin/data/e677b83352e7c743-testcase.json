@@ -1,0 +1,53 @@
+{
+  "uid" : "e677b83352e7c743",
+  "name" : "When I enter  mohammad@technosoft.io into email field on amazon register page",
+  "title" : "When I enter  mohammad@technosoft.io into email field on amazon register page",
+  "time" : {
+    "start" : 1550959722882,
+    "stop" : 1550959722883,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "838fa604c83728d9",
+    "name" : "Verify I can't create an account if name is not entered",
+    "title" : "Verify I can't create an account if name is not entered"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if name is not entered"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if name is not entered"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if name is not entered"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  } ],
+  "parameters" : [ ]
+}

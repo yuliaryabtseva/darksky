@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1550959730847" stop="1550959733903" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify I can't create an account if email is not entered</name>
+    <title>Verify I can't create an account if email is not entered</title>
+    <test-cases>
+        <test-case start="1550959730853" stop="1550959730853" status="passed">
+            <name>Given I am on Amazon home page</name>
+            <title>Given I am on Amazon home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959732608" stop="1550959732608" status="passed">
+            <name>Given I am on Create Account page</name>
+            <title>Given I am on Create Account page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959732817" stop="1550959732817" status="passed">
+            <name>When I enter  Yulia into name field on amazon register page</name>
+            <title>When I enter  Yulia into name field on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959733009" stop="1550959733010" status="passed">
+            <name>And I enter  test1234 into password field on amazon register page</name>
+            <title>And I enter  test1234 into password field on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959733174" stop="1550959733175" status="passed">
+            <name>And I enter test1234 into re-enter password field on amazon register page</name>
+            <title>And I enter test1234 into re-enter password field on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959733580" stop="1550959733580" status="passed">
+            <name>And I click on Create your Amazon account button on amazon register page</name>
+            <title>And I click on Create your Amazon account button on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1550959733647" stop="1550959733647" status="passed">
+            <name>Then I verify "Enter your email" error on amazon register page</name>
+            <title>Then I verify "Enter your email" error on amazon register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="TechnosokPro003.home"/>
+                <label name="thread" value="15563@TechnosokPro003.home.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify I can't create an account if email is not entered"/>
+        <label name="feature" value="Amazon Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

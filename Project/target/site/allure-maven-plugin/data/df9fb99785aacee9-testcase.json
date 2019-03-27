@@ -1,0 +1,53 @@
+{
+  "uid" : "df9fb99785aacee9",
+  "name" : "And I enter test1234 into re-enter password field on amazon register page",
+  "title" : "And I enter test1234 into re-enter password field on amazon register page",
+  "time" : {
+    "start" : 1550959723236,
+    "stop" : 1550959723236,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "838fa604c83728d9",
+    "name" : "Verify I can't create an account if name is not entered",
+    "title" : "Verify I can't create an account if name is not entered"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if name is not entered"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if name is not entered"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if name is not entered"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  } ],
+  "parameters" : [ ]
+}

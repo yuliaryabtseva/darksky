@@ -1,0 +1,53 @@
+{
+  "uid" : "d275517e4a3d9da4",
+  "name" : "And I enter test into re-enter password field on amazon register page",
+  "title" : "And I enter test into re-enter password field on amazon register page",
+  "time" : {
+    "start" : 1550959754984,
+    "stop" : 1550959754984,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ee787f1d37e5661f",
+    "name" : "Verify I can't create an account if passwords don't match",
+    "title" : "Verify I can't create an account if passwords don't match"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if passwords don't match"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if passwords don't match"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if passwords don't match"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "167c0b10c15e3f46",
+  "name" : "And I enter thisIsMyEmail into email field on amazon register page",
+  "title" : "And I enter thisIsMyEmail into email field on amazon register page",
+  "time" : {
+    "start" : 1550959742983,
+    "stop" : 1550959742983,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5aa17296db8e74e8",
+    "name" : "Verify I can't create an account if entered email is not an email",
+    "title" : "Verify I can't create an account if entered email is not an email"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if entered email is not an email"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if entered email is not an email"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if entered email is not an email"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  } ],
+  "parameters" : [ ]
+}

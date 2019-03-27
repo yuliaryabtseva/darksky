@@ -1,0 +1,53 @@
+{
+  "uid" : "b7a0173ca17b6e5",
+  "name" : "Then I verify \"Passwords must match\" error on amazon register page",
+  "title" : "Then I verify \"Passwords must match\" error on amazon register page",
+  "time" : {
+    "start" : 1550959755441,
+    "stop" : 1550959755441,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ee787f1d37e5661f",
+    "name" : "Verify I can't create an account if passwords don't match",
+    "title" : "Verify I can't create an account if passwords don't match"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TechnosokPro003.home"
+  }, {
+    "name" : "feature",
+    "value" : "Amazon Feature"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify I can't create an account if passwords don't match"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Verify I can't create an account if passwords don't match"
+  }, {
+    "name" : "thread",
+    "value" : "15563@TechnosokPro003.home.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify I can't create an account if passwords don't match"
+  } ],
+  "parameters" : [ ]
+}

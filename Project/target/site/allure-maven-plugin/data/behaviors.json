@@ -1,0 +1,492 @@
+{
+  "features" : [ {
+    "title" : "Amazon Feature",
+    "statistic" : {
+      "total" : 38,
+      "passed" : 38,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "10f2ffb87250fb3a",
+      "title" : "Verify I can't create an account if email is not entered",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "f54cd3ec7461d6e3",
+        "name" : "Given I am on Amazon home page",
+        "title" : "Given I am on Amazon home page",
+        "time" : {
+          "start" : 1550959730853,
+          "stop" : 1550959730853,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a51075cc2b3c856e",
+        "name" : "Given I am on Create Account page",
+        "title" : "Given I am on Create Account page",
+        "time" : {
+          "start" : 1550959732608,
+          "stop" : 1550959732608,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4e49fe3cf64166ba",
+        "name" : "When I enter  Yulia into name field on amazon register page",
+        "title" : "When I enter  Yulia into name field on amazon register page",
+        "time" : {
+          "start" : 1550959732817,
+          "stop" : 1550959732817,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "65bb37ccadacc7b0",
+        "name" : "And I enter  test1234 into password field on amazon register page",
+        "title" : "And I enter  test1234 into password field on amazon register page",
+        "time" : {
+          "start" : 1550959733009,
+          "stop" : 1550959733010,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a3e51f60b5225ff1",
+        "name" : "And I enter test1234 into re-enter password field on amazon register page",
+        "title" : "And I enter test1234 into re-enter password field on amazon register page",
+        "time" : {
+          "start" : 1550959733174,
+          "stop" : 1550959733175,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a6cdbd0706f25475",
+        "name" : "And I click on Create your Amazon account button on amazon register page",
+        "title" : "And I click on Create your Amazon account button on amazon register page",
+        "time" : {
+          "start" : 1550959733580,
+          "stop" : 1550959733580,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7f2fc7768b6d327b",
+        "name" : "Then I verify \"Enter your email\" error on amazon register page",
+        "title" : "Then I verify \"Enter your email\" error on amazon register page",
+        "time" : {
+          "start" : 1550959733647,
+          "stop" : 1550959733647,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "867c0d1a3ae17bd6",
+      "title" : "Verify I can't create an account if name is not entered",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "17d86b9edf142a36",
+        "name" : "Given I am on Amazon home page",
+        "title" : "Given I am on Amazon home page",
+        "time" : {
+          "start" : 1550959720154,
+          "stop" : 1550959720163,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bfe725456bacacbb",
+        "name" : "Given I am on Create Account page",
+        "title" : "Given I am on Create Account page",
+        "time" : {
+          "start" : 1550959722286,
+          "stop" : 1550959722286,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e677b83352e7c743",
+        "name" : "When I enter  mohammad@technosoft.io into email field on amazon register page",
+        "title" : "When I enter  mohammad@technosoft.io into email field on amazon register page",
+        "time" : {
+          "start" : 1550959722882,
+          "stop" : 1550959722883,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "234fa95b5eee80d4",
+        "name" : "And I enter  test1234 into password field on amazon register page",
+        "title" : "And I enter  test1234 into password field on amazon register page",
+        "time" : {
+          "start" : 1550959723073,
+          "stop" : 1550959723073,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "df9fb99785aacee9",
+        "name" : "And I enter test1234 into re-enter password field on amazon register page",
+        "title" : "And I enter test1234 into re-enter password field on amazon register page",
+        "time" : {
+          "start" : 1550959723236,
+          "stop" : 1550959723236,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "973d60a0cc276a72",
+        "name" : "And I click on Create your Amazon account button on amazon register page",
+        "title" : "And I click on Create your Amazon account button on amazon register page",
+        "time" : {
+          "start" : 1550959723639,
+          "stop" : 1550959723639,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bd8e5f7d287be574",
+        "name" : "Then I verify \"Enter your name\" error on amazon register page",
+        "title" : "Then I verify \"Enter your name\" error on amazon register page",
+        "time" : {
+          "start" : 1550959723707,
+          "stop" : 1550959723707,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "e248578575ec4f85",
+      "title" : "Verify I can't create an account if passwords don't match",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "3b4788efee4998d5",
+        "name" : "Given I am on Amazon home page",
+        "title" : "Given I am on Amazon home page",
+        "time" : {
+          "start" : 1550959752799,
+          "stop" : 1550959752799,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a48e3d025fd6ae34",
+        "name" : "Given I am on Create Account page",
+        "title" : "Given I am on Create Account page",
+        "time" : {
+          "start" : 1550959754158,
+          "stop" : 1550959754158,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "21b6a97bae049ca",
+        "name" : "When I enter  Yulia into name field on amazon register page",
+        "title" : "When I enter  Yulia into name field on amazon register page",
+        "time" : {
+          "start" : 1550959754351,
+          "stop" : 1550959754351,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fb22129dd5fdeec4",
+        "name" : "And I enter test@technosoft.io into email field on amazon register page",
+        "title" : "And I enter test@technosoft.io into email field on amazon register page",
+        "time" : {
+          "start" : 1550959754689,
+          "stop" : 1550959754689,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9fdcbd39c22ebd28",
+        "name" : "And I enter  test1234 into password field on amazon register page",
+        "title" : "And I enter  test1234 into password field on amazon register page",
+        "time" : {
+          "start" : 1550959754868,
+          "stop" : 1550959754868,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d275517e4a3d9da4",
+        "name" : "And I enter test into re-enter password field on amazon register page",
+        "title" : "And I enter test into re-enter password field on amazon register page",
+        "time" : {
+          "start" : 1550959754984,
+          "stop" : 1550959754984,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "42a9089fc506a1f0",
+        "name" : "And I click on Create your Amazon account button on amazon register page",
+        "title" : "And I click on Create your Amazon account button on amazon register page",
+        "time" : {
+          "start" : 1550959755372,
+          "stop" : 1550959755372,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b7a0173ca17b6e5",
+        "name" : "Then I verify \"Passwords must match\" error on amazon register page",
+        "title" : "Then I verify \"Passwords must match\" error on amazon register page",
+        "time" : {
+          "start" : 1550959755441,
+          "stop" : 1550959755441,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "24023e0b73558667",
+      "title" : "Verify I can't create an account if entered email is not an email",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "eb0f4ad0a3d97f5f",
+        "name" : "Given I am on Amazon home page",
+        "title" : "Given I am on Amazon home page",
+        "time" : {
+          "start" : 1550959741147,
+          "stop" : 1550959741147,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2a119e9321df40cd",
+        "name" : "Given I am on Create Account page",
+        "title" : "Given I am on Create Account page",
+        "time" : {
+          "start" : 1550959742517,
+          "stop" : 1550959742517,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "48e667b89cba8186",
+        "name" : "When I enter  Yulia into name field on amazon register page",
+        "title" : "When I enter  Yulia into name field on amazon register page",
+        "time" : {
+          "start" : 1550959742728,
+          "stop" : 1550959742728,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "167c0b10c15e3f46",
+        "name" : "And I enter thisIsMyEmail into email field on amazon register page",
+        "title" : "And I enter thisIsMyEmail into email field on amazon register page",
+        "time" : {
+          "start" : 1550959742983,
+          "stop" : 1550959742983,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "aa639d7e8b06c04c",
+        "name" : "And I enter  test1234 into password field on amazon register page",
+        "title" : "And I enter  test1234 into password field on amazon register page",
+        "time" : {
+          "start" : 1550959743153,
+          "stop" : 1550959743153,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8b4065602643a519",
+        "name" : "And I enter test1234 into re-enter password field on amazon register page",
+        "title" : "And I enter test1234 into re-enter password field on amazon register page",
+        "time" : {
+          "start" : 1550959743308,
+          "stop" : 1550959743309,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5de517f0cd15035d",
+        "name" : "And I click on Create your Amazon account button on amazon register page",
+        "title" : "And I click on Create your Amazon account button on amazon register page",
+        "time" : {
+          "start" : 1550959743701,
+          "stop" : 1550959743701,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f33a4325a220e287",
+        "name" : "Then I verify \"Enter a valid email address\" error on amazon register page",
+        "title" : "Then I verify \"Enter a valid email address\" error on amazon register page",
+        "time" : {
+          "start" : 1550959743797,
+          "stop" : 1550959743797,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "e6878ad06355234e",
+      "title" : "Verify I can't create an account if password is less than 6 characters",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c970877f516d30fd",
+        "name" : "Given I am on Amazon home page",
+        "title" : "Given I am on Amazon home page",
+        "time" : {
+          "start" : 1550959761685,
+          "stop" : 1550959761685,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6e43317f404926d8",
+        "name" : "Given I am on Create Account page",
+        "title" : "Given I am on Create Account page",
+        "time" : {
+          "start" : 1550959763985,
+          "stop" : 1550959763985,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e4fbf5083f78812",
+        "name" : "When I enter  Yulia into name field on amazon register page",
+        "title" : "When I enter  Yulia into name field on amazon register page",
+        "time" : {
+          "start" : 1550959764187,
+          "stop" : 1550959764187,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "62f80df0c0a96fca",
+        "name" : "And I enter test@technosoft.io into email field on amazon register page",
+        "title" : "And I enter test@technosoft.io into email field on amazon register page",
+        "time" : {
+          "start" : 1550959764502,
+          "stop" : 1550959764502,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "777791f0da80a056",
+        "name" : "And I enter  12345 into password field on amazon register page",
+        "title" : "And I enter  12345 into password field on amazon register page",
+        "time" : {
+          "start" : 1550959764668,
+          "stop" : 1550959764668,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e13499d076116427",
+        "name" : "And I enter 12345 into re-enter password field on amazon register page",
+        "title" : "And I enter 12345 into re-enter password field on amazon register page",
+        "time" : {
+          "start" : 1550959764799,
+          "stop" : 1550959764799,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f2eb23f5d72f0069",
+        "name" : "And I click on Create your Amazon account button on amazon register page",
+        "title" : "And I click on Create your Amazon account button on amazon register page",
+        "time" : {
+          "start" : 1550959765556,
+          "stop" : 1550959765556,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "be0b9123c604dd26",
+        "name" : "Then I verify \"Passwords must be at least 6 characters.\" error on amazon register page",
+        "title" : "Then I verify \"Passwords must be at least 6 characters.\" error on amazon register page",
+        "time" : {
+          "start" : 1550959765619,
+          "stop" : 1550959765619,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
