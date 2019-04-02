@@ -4,9 +4,7 @@ import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.google.common.base.Function;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.*;
 
 import stepdefinition.SharedSD;
 
@@ -37,6 +35,16 @@ public class BasePage {
 		});
 
 		return element;
+	}
+
+	public void waitUntilElementIsPresent(By locator) {
+		WebDriverWait wait = new WebDriverWait(SharedSD.getDriver(), 60);
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
+	}
+
+	public void waitUntilAllElementsAppear(By locator) {
+		WebDriverWait wait = new WebDriverWait(SharedSD.getDriver(), 30);
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
 	}
 
 	public void clickOn(By locator) {
@@ -88,7 +96,6 @@ public class BasePage {
 	}
 
 	public static void switchToWindow(int index) {
-
 		List<String> listOfWindows = new ArrayList<String>(SharedSD.getDriver().getWindowHandles());
 		SharedSD.getDriver().switchTo().window(listOfWindows.get(index));
 	}
