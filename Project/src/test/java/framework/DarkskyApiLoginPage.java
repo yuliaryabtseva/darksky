@@ -5,9 +5,9 @@ import org.openqa.selenium.By;
 public class DarkskyApiLoginPage extends BasePage {
 
     private By emailAddressTextField = By.id("email");
-    private String email = "ryabtsevayuv@gmail.com";
+    private String email = "email@email.com";
     private By passwordTextField = By.id("password");
-    private String password = "Techno1234";
+    private String password = "password";
     private By loginButton = By.xpath("//button[@type='submit']");
 
     public void enterEmail() {

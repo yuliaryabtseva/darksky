@@ -5,9 +5,9 @@ import org.openqa.selenium.By;
 public class DarkskyApiRegisterPage extends BasePage {
 
     private By emailTextField = By.xpath("//input[@name='email']");
-    private String email = "ryabtsevayu@gmail.com";
+    private String email = "email@email.com";
     private By passwordTextField = By.xpath("//input[@name='password']");
-    private String password = "Techno1234";
+    private String password = "password";
     private By confirmPasswordTextField = By.xpath("//input[@name='confirmation']");
     private By registerButton = By.xpath("//button[@type='submit']");
 

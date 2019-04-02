@@ -7,10 +7,10 @@ public class GmailSignInPage extends BasePage {
 
     private String urlGmail = "http://gmail.com";
     private By emailOrPhoneTextField = By.id("identifierId");
-    private String email = "ryabtsevayuv@gmail.com";
+    private String email = "email@email.com";
     private By nextButton = By.id("identifierNext");
     private By passwordTextField = By.xpath("//input[@name='password']");
-    private String password = "Gmail911033";
+    private String password = "password";
     private By passwordNextButton = By.id("passwordNext");
 
     public void enterEmail() {
